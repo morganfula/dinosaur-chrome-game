@@ -36,3 +36,25 @@
     top: 150px;
   }
 }
+
+#object {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 560px;
+
+  background-image: url(./images/cactus.png);
+  background-size: 40px 40px;
+
+  animation: block 1s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 560px;
+  }
+  100% {
+    left: -40px;
+  }
+}
